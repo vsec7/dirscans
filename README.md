@@ -17,6 +17,10 @@ E.g : ./dirscans.sh -u http://domain.com
 	-o (Output) **optional**
 ```
 
+## Dictionary copy from :
+```
+https://raw.githubusercontent.com/maurosoria/dirsearch/master/db/dicc.txt
+```
 # Note
 Im not support for this project / script . so if any mistake, fix it by your self (GAUSA BACOT JANCOK!)
 
