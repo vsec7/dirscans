@@ -19,7 +19,7 @@ scan(){
 	if [ ! -z $loc ]; then
 		printf "\r%s[%s] %s -> %s\n" "$(tput el)" "$Y$http$N" "$Y$2$N" "$loc"
 		if [ ! -z "${o}" ]; then
-			echo "$http|$1/$2 -> $1/$loc" >> $o
+			echo "$http|$1/$2 -> $loc" >> $o
 		fi
 	elif [ $http -eq 200 ]; then
 		printf "\r%s[%s] %s\n" "$(tput el)" "$G$http$N" "$G$2$N"
